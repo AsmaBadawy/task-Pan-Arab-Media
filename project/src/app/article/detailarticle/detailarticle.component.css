@@ -75,4 +75,7 @@ mat-card{
   .dislike{
     background-color: rgb(238, 231, 231);
   }
+  mat-card-title{
+    color: black;
+  }
  

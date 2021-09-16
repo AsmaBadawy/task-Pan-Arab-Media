@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { ArticleService } from 'src/app/article/article.service';
-import { nanoid } from 'nanoid'
 @Component({
   selector: 'app-listofarticles',
   templateUrl: './listofarticles.component.html',

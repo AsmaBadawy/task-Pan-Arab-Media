@@ -31,13 +31,12 @@ export class DetailarticleComponent implements OnInit {
     this.commentsarr=[];
    }
      this.post = JSON.parse(localStorage.getItem('post')as any);;
-   console.log(this.post)
 
   }
   conversation() {
-    console.log('ss',this.conversationform.value)
     this.commentsarr.push(this.conversationform.value);
     localStorage.setItem('comments',JSON.stringify(this.commentsarr));
+    this.snackBar.openSnackBar("successfully send", 'Close', 'green-snackbar');
     this.conversationform.reset();
   }
 }

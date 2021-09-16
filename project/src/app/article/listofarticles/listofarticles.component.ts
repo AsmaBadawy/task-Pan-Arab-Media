@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { ArticleService } from 'src/app/article/article.service';
-
+import { nanoid } from 'nanoid'
 @Component({
   selector: 'app-listofarticles',
   templateUrl: './listofarticles.component.html',
@@ -33,9 +33,6 @@ export class ListofarticlesComponent implements OnInit {
       this.recents=this.articles.slice(0, 3);
       this.populars=this.articles.slice(0, 5);
       this.tendposts=this.articles.slice(0, 4);
-
-      
-      console.log('dd',this.lastestnews)
     });
   
   }

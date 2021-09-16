@@ -1,0 +1,38 @@
+mat-toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+ul li {
+    list-style: none;
+}
+button {
+  
+height: 40px;
+background-color: white;
+color: rgb(197, 46, 46);
+border: none;
+margin-right: 40px;
+}
+
+mat-toolbar {
+    background: rgb(197, 46, 46);
+}
+
+::ng-deep .mat-menu-content {
+    width: 160px;
+}
+.notification{
+    color: cornflowerblue;
+}
+
+
+/**/
+.example-spacer {
+    flex: 1 1 auto;
+  }
+p{
+ color: white;
+ font-size: larger;
+
+  }

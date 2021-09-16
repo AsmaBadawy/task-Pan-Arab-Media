@@ -1,0 +1,123 @@
+
+.page{
+    display: grid;
+    background-color: white;
+    grid-template-columns:repeat(10,1fr) ;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "section section section section section section side side side side" "footer footer footer footer footer footer footer footer footer footer";
+    grid-column-gap: 20px;
+}
+
+section{
+    grid-area: section;
+}
+aside{
+    grid-area:side ;
+}
+footer{
+    grid-area: footer;
+}
+
+ .container{
+    background-color: white;
+
+ }
+ 
+h1{
+    text-align: center;
+    font-weight: bolder;
+}
+.imgside{
+    width: 70px;
+    height: 70px;
+}
+.recentpost{
+    display: flex;
+    margin-top: 25px;
+   
+}
+.mainrecentpost{
+    border: 1px solid rgb(219, 214, 214);
+    margin-top: 5px;
+    height: 28%;
+
+}
+span{
+    color: #aaa;
+}
+
+.popular{
+    border: 1px solid ;
+    border-color:rgb(226, 221, 221);
+    height:27% ;
+
+  }
+  .popularpostss{
+    margin-bottom: 20px;
+
+  }
+  
+  h2{
+      padding-left: 30px;
+      color: rgb(197, 46, 46);;
+  }
+  p{
+      padding-left: 8px;
+  }
+
+  .goodnews{
+    border: 1px solid ;
+    border-color:rgb(226, 221, 221);
+    height:15% ;
+    margin-bottom: 10px;
+
+  }
+
+  .suscribe{
+      border: 1px solid rgb(160, 157, 157);
+      width: 47%;
+      margin-left: 30px;
+  }
+  input{
+      border: none;
+  }
+  .Subscribebtn{
+      border: none;
+      background-color: rgb(197, 46, 46);
+      height: 40px;
+      color: white;
+  }
+  .followus{
+    border: 1px solid ;
+    border-color:rgb(226, 221, 221);
+    height:20% ;
+    margin-bottom: 10px;
+  } 
+  .example-card{
+      height: 45%;
+      
+  }
+  .author{
+      color: red;
+  }
+h3{
+    font-weight: 40x ;
+}
+.col{
+margin-bottom: 10px;
+}
+.flexposts{
+    display: flex;
+}
+.flexposts > div{
+   margin: 10px;
+}
+.flextrend{
+    display: flex;
+}
+.trent-card{
+    width: 20%;
+    margin: 10px;
+}
+
+

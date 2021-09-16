@@ -1,0 +1,46 @@
+.container{
+    background-color: white;
+}
+.row {
+    display: grid;
+    background-color: white;
+grid-template-columns: 30% 70%;
+  grid-column-gap: 3px;
+}
+
+.img{
+    width: 50%;
+    
+}
+.sharesocial{
+    border: 1px solid #aaa;
+    width: 100px;
+    height: 200px;
+}
+.imgside{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+mat-card{
+    margin: 40px;
+  }
+  .mat-form-field {
+    width: 100%;
+  }
+
+  mat-card-title,
+  mat-card-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  mat-card-title{
+    color: rgb(131, 131, 180);
+
+  }
+  .button{
+    background-color:rgb(197, 46, 46);
+    color: white;
+    width: 100px;
+  }

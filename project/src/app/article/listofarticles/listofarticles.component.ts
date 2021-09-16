@@ -41,6 +41,7 @@ export class ListofarticlesComponent implements OnInit {
   }
   detail(post:any)
   {
+    localStorage.setItem('post',  JSON.stringify(post));
     this.router.navigate(['detailarticle'])
   }
 }

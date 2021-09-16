@@ -15,7 +15,22 @@ grid-template-columns: 30% 70%;
 .sharesocial{
     border: 1px solid #aaa;
     width: 100px;
-    height: 200px;
+    height: 260px;
+    margin: 20px;
+}
+.numbershare{
+  font-size: 28px;
+  font-weight: bolder;
+  text-align: center;
+}
+.share{
+  color: black;
+  text-align: center;
+}
+.socialicon
+{
+  text-align: center;
+
 }
 .imgside{
     width: 40px;
@@ -44,3 +59,20 @@ mat-card{
     color: white;
     width: 100px;
   }
+  span{
+    color: red;
+  }
+  p{
+    color: #aaa;
+  }
+  h1{
+    font-weight: bolder;
+  }
+  .like{
+    background-color: rgb(73, 156, 73);
+    color: white;
+  }
+  .dislike{
+    background-color: rgb(238, 231, 231);
+  }
+ 

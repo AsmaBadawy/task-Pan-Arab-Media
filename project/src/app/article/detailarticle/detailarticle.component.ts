@@ -11,6 +11,7 @@ import { MatSnackBarComponent } from 'src/app/shared/MatSnackBar/mat-snack-bar/m
 export class DetailarticleComponent implements OnInit {
   conversationform: FormGroup;
   commentsarr:any;
+  post:any
   constructor(private _formBuilder: FormBuilder,
     private snackBar: MatSnackBarComponent) {
     this.conversationform = this._formBuilder.group({
@@ -23,13 +24,14 @@ export class DetailarticleComponent implements OnInit {
   }
 
   ngOnInit(): void {
-
+    
    this.commentsarr=JSON.parse(localStorage.getItem('comments')as any);
    if(!this.commentsarr)
    {
     this.commentsarr=[];
    }
-   console.log('aa',this.commentsarr);
+     this.post = JSON.parse(localStorage.getItem('post')as any);;
+   console.log(this.post)
 
   }
   conversation() {

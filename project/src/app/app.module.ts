@@ -20,6 +20,8 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import {MatIconModule} from '@angular/material/icon';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +37,6 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-  
     FormsModule,
     ReactiveFormsModule,
     CommonModule,
@@ -54,7 +55,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
    MatButtonModule,
    MatDividerModule,
    MatFormFieldModule,
-   MatInputModule
+   MatInputModule,
+   MatIconModule
 
   ],
   providers: [MatSnackBarComponent],

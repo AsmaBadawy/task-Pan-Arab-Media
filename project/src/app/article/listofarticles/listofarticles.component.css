@@ -39,7 +39,10 @@ h1{
 .mainrecentpost{
     border: 1px solid rgb(219, 214, 214);
     margin-top: 5px;
-    height: 28%;
+
+}
+.Editiorspost{
+    margin-top: 5px;
 
 }
 span{
@@ -49,7 +52,7 @@ span{
 .popular{
     border: 1px solid ;
     border-color:rgb(226, 221, 221);
-    height:27% ;
+   
 
   }
   .popularpostss{
@@ -61,6 +64,10 @@ span{
       padding-left: 30px;
       color: rgb(197, 46, 46);;
   }
+  .descript{
+    padding-left: 30px;
+
+  }
   p{
       padding-left: 8px;
   }
@@ -68,9 +75,6 @@ span{
   .goodnews{
     border: 1px solid ;
     border-color:rgb(226, 221, 221);
-    height:15% ;
-    margin-bottom: 10px;
-
   }
 
   .suscribe{
@@ -90,7 +94,6 @@ span{
   .followus{
     border: 1px solid ;
     border-color:rgb(226, 221, 221);
-    height:20% ;
     margin-bottom: 10px;
   } 
   .example-card{
@@ -119,5 +122,55 @@ margin-bottom: 10px;
     width: 20%;
     margin: 10px;
 }
+svg {
+    height: 30px;
+    fill: #2962ff;
 
+}
+mat-icon{
+    color: #aaa;
+}
+.actions{
+    border: 1px solid #aaa;
+    width: 50%;
+}
+div{
+    margin-top: 30px;
+}
+.h2{
+    color: black;
+}
+.author{
+    color: red;
+}
+.trend{
+    text-align: left;
+}
 
+i{
+ 
+    font-size: 30px;
+    margin: 10px;
+}
+.fa-facebook-square{
+    color: rgb(103, 103, 255);
+}
+.fa-twitter-square{
+    color: rgb(76, 205, 245);
+}
+.fa-google-plus-square{
+    color: rgb(250, 86, 86);
+}
+.fa-youtube-square{
+    color: red;
+}
+.fa-linkedin-square{
+    color: rgb(76, 148, 241);
+}
+.fa-tumblr-square{
+    color: rgb(103, 103, 255);
+}
+.fa-share,.fa-comment{
+color: #aaa;
+font-size: 16px;
+}
